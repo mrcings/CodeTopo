@@ -17,7 +17,7 @@ The Mermaid graph is interactive: click a node to highlight the selected node an
 - Generate a Mermaid call topology graph
 - Show the target source code with line numbers
 - Generate Markdown analysis for the selected file with an LLM
-- Support multiple model providers
+- Support multiple model providers:
   - DeepSeek
   - OpenAI
   - Kimi
@@ -83,7 +83,7 @@ The page returns:
 
 ### Interactive Graph
 
-- Click a graph node to highlight the selected node and its related calls
+- Click a graph node to highlight the selected node and its directly related calls
 - Click the blank area in the graph to clear the current highlight
 - Use the reset button to clear selection and fit the graph back into view
 
@@ -134,7 +134,7 @@ CodeToPo 是一个本地运行的代码结构分析工具。你选择项目目�
 - 生成 Mermaid 调用拓扑图
 - 展示带行号的目标源码
 - 调用大模型生成目标文件的 Markdown 分析结果
-- 支持多种模型提供商
+- 支持多种模型提供商：
   - DeepSeek
   - OpenAI
   - Kimi
